@@ -1,0 +1,407 @@
+body
+{
+font-family: 'Raleway', sans-serif;
+font-size: 16px;
+margin: 0px;
+padding-top: -10px;
+background-color: white;
+margin-top: -10px;
+}
+header
+{
+background: white;
+margin: 0px auto;
+width:80%;
+margin-top: 2em;
+vertical-align: middle;
+
+}
+
+header figure
+{
+width: 200px;
+display: inline-block;
+margin: 0px;
+padding:0px;
+}
+header figure img
+{
+width: 60%;
+
+}
+header nav {
+  display: inline-block;
+  float:right;
+  vertical-align: middle;
+
+}
+header nav ul
+{
+list-style: none;
+text-align: center;
+display: inline-block;
+margin:0px;
+padding:0px;
+vertical-align: middle;
+}
+header nav ul li
+{
+display: inline-block;
+margin: 0px .5em;
+vertical-align: middle;
+}
+header nav ul li a
+{
+display: block;
+padding: 0px 1em;
+text-decoration: none;
+color: grey;
+}
+
+#Title {
+  display: block;
+  margin-top: 2em;
+  padding-top:2em;
+  padding-bottom: 2em;
+  background-color: #3399FF;
+  color:white;
+  }
+
+#Posts
+{
+padding: 0px 1em;
+width:82%;
+display: inline-block;
+margin:0px;
+}
+
+#Posts article
+{
+width: 49%;
+display: inline-block;
+}
+
+#Posts article figure
+{
+width: 50%;
+border: none;
+padding: 0;
+margin: 0 auto;
+border-radius: none;
+}
+
+#Posts article figure img
+{
+width: 100%;
+}
+
+#Posts article p
+{
+position:inherit;
+}
+
+aside {
+  display: inline-block;
+  width:15%;
+  vertical-align: top;
+
+}
+
+aside article {
+  vertical-align: middle;
+}
+
+aside article p {
+  display: inline-block;
+  vertical-align: middle;
+  margin:0px;
+  padding-left: 1em;
+}
+
+aside article figure {
+  margin: 0px 0px 2em 0px;
+  padding: 0px;
+  display: inline-block;
+}
+
+aside article figcaption h2{
+  position: inherit;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Centrado {
+  margin:4em auto;
+  width:80%;
+}
+
+h1 {
+  margin:0px auto;
+  width:80%;
+  font-weight: normal;
+  font-size: 20px;
+
+}
+
+footer
+{
+background: #47476B;
+margin: 0;
+padding: 0;
+overflow: hidden;
+color: white;
+display: inline-block;
+}
+
+footer .Center2 div
+{
+display: inline-block;
+width: 25%;
+height: 250px;
+padding: 0;
+margin: 1em 3.125%;
+vertical-align: top;
+}
+
+
+span.icon-music span:hover {
+  transform: rotate (25deg);
+  -webkit-transform:rotate (25deg);
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+}
+
+span.icon-music span{
+  -webkit-transition: all .5s ease-in-out;
+  transition:all .5s;
+  transform:rotate(0deg);
+}
+
+footer div h3
+{
+text-align: left;
+font-weight: 700;
+font-size: 1.5em;
+}
+
+
+._1 {
+  color: white;
+  font-size: 2em;
+  padding-right: 1.5em;
+
+}
+
+.lista ul {
+  margin: 0px;
+  padding:0px;
+}
+
+.lista ul li a{
+  color:white;
+  text-decoration: none;
+}
+
+.lista ul li {
+  list-style: none;
+  display: inline;
+  background-color: grey;
+  border-radius: 2px;
+  padding: 0px .5em;
+
+}
+
+.Center {
+  width:80%;
+  
+}
+
+.Center2 {
+  width:80%;
+  margin: 0px auto 0px auto;
+}
+.miMenu {
+  display: none;
+}
+
+.lista ul li {
+    margin:3px;
+    display: inline-block;
+  }
+
+/*_________________MOBILE____________________*/
+
+
+@media (max-width: 376px) {
+
+  body {
+    
+    padding:0px;
+  }
+
+  header {
+    position: fixed;
+    background-color: white;  
+    width:100%;
+    display: inline-block;
+    margin-top: 0px;
+    padding-bottom: 1em;
+  }
+
+  header img {
+    padding:2em 0px 1em 2em;
+    display: block;
+  }
+
+  header nav {
+    display: block;
+  }
+
+  #Title {
+    margin:0px;
+    display: block;
+    width: 100%
+  }
+
+  .Centrado {
+    width: 80%;
+    margin: 4em auto 2em auto;
+  }
+
+  #Posts {
+    margin: 0px auto 0px auto;
+  }
+
+  .Centrado #Posts article {
+    width: 200px;
+    margin: 0px;
+    padding:0px;
+  }
+
+  .Centrado #Posts article figure {
+    width: 267px;
+  }
+
+  aside {
+    width:100%;
+    display: inline-block;
+    margin: 0px auto 0px auto;
+  }
+
+  aside article {
+    display: inline-block;
+    margin: .8em;
+  }
+
+  aside article figure {
+    margin: 0px auto;
+    padding: 0px;
+    display: block;
+  }
+
+  .Center2 {
+    margin: 0px auto;
+    padding: 0px;
+  }
+
+  footer .Center2 div {
+  display: block;
+  width: 100%;
+  height: 50%;
+  margin: 0px;
+  padding: 0px auto;
+
+}
+  aside article p {   
+    margin: 1em 0px;
+    padding: 0px;
+
+  }
+
+  #Prof {
+    width:100%;
+    margin: 0px auto;
+    display: block;
+  }
+
+  #Prof figure {
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  footer {
+    display: block;
+    padding-bottom: 2em;
+
+  }
+
+
+
+  header nav .miMenu {
+    display: block;
+    position: absolute;
+    font-size: 2em;
+    color: #333;
+    top: 33px;
+    right: 30px;
+    text-decoration: none;
+    color: grey;
+  }
+
+
+  header nav ul{
+    display: none;
+  }
+
+  header nav:hover > ul{
+  display: block;
+  cursor: pointer;
+  }
+
+  header nav ul li:hover < ul{
+  display: block;
+  }
+  
+  header nav ul:hover {
+  display: block;
+  }
+
+  header nav ul
+  {
+  position: absolute;
+  top: 80px;
+  right: -1px;
+  margin: 0 auto;
+  width:100%;
+  padding: 0;
+  display: none;
+  background: rgba(255,255,255,0.8);
+  }
+
+  header nav ul li
+  {
+  margin: .1em;
+  width: 200px;
+  font-size: .7em;
+  background: none;
+  }
+
+  header nav ul li a
+  {
+  color: #333;
+  padding: 0;
+  }
+
+  .lista ul li {
+    margin:3px;
+    display: inline-block;
+  }
+
+
+}
+
+

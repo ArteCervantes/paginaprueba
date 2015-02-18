@@ -1,0 +1,104 @@
+@media (max-width: 480px) {
+
+  body {
+    
+    padding:0px;
+  }
+
+  header {
+    position: fixed;
+    background-color: white;  
+    width:100%;
+    display: inline-block;
+    margin-top: 0px;
+    padding-bottom: 1em;
+  }
+
+  header img {
+    padding:2em 0px 1em 2em;
+    display: block;
+  }
+
+  header nav {
+    display: block;
+  }
+
+  #Title {
+    margin:0px;
+    padding:0px;
+    display: block;
+  }
+
+  .Centrado {
+    width: 80%;
+    margin: 4em auto 2em auto;
+  }
+
+  #Posts {
+    margin: 0px auto 0px auto;
+  }
+
+  .Centrado #Posts article {
+    width: 334px;
+    margin: 0px;
+    padding:0px;
+  }
+
+  .Centrado #Posts article figure {
+    width: 334px;
+  }
+
+  aside {
+    width:100%;
+    display: inline-block;
+    margin: 0px auto 0px auto;
+  }
+
+  aside article {
+    display: inline-block;
+    margin: 1.5em;
+  }
+
+  aside article figure {
+    margin: 0px auto;
+    padding: 0px;
+    display: block;
+  }
+
+  .Center2 {
+    margin: 0px auto;
+    padding: 0px;
+  }
+
+  footer .Center2 div {
+  display: block;
+  width: 100%;
+  height: 50%;
+  margin: 0px;
+  padding: 0px auto;
+
+}
+  aside article p {   
+    margin: 1em 0px;
+    padding: 0px;
+
+  }
+
+  #Prof {
+    width:100%;
+    margin: 0px auto;
+    display: block;
+  }
+
+  #Prof figure {
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  footer {
+    display: block;
+    padding-bottom: 2em;
+
+  }
+
+}
